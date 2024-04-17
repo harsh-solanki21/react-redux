@@ -1,4 +1,4 @@
-###### This Repo contains Theory and Practicle examples about React and Redux, that are necessary for Learning and Interviews.
+### This Repo contains Theory and Practicle examples about React and Redux, that are necessary for Learning and Interviews.
 
 <br />
 
@@ -8,4 +8,4 @@
 - Hooks & Custom Hooks
 - Redux Toolkit, RTK Query
 - Higher Order Components
-  etc.
+- etc.
