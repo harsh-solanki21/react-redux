@@ -6,7 +6,7 @@
 
 <br />
 
-###### Example 1:
+#### `Example 1:`
 
 ```jsx
 import { useEffect, useState } from "react";
@@ -28,7 +28,7 @@ const ExampleComponent = () => {
 
 <br />
 
-###### Example 2:
+#### `Example 2:`
 
 - This example will explain the absolute need for this cleanup function and how it can improve the performance of our application.
 - The useEffect cleanup function can be crucial when working with async operations, such as API requests because it allows you to cancel any ongoing async tasks before the component is unmounted.
@@ -114,7 +114,7 @@ const UserProfile = () => {
 
 <br />
 
-###### Example 3:
+#### `Example 3:`
 
 - Cancel an Axios request
 - Axios comes with a cancellation option to finish a request before it ends. This is useful besides the cleanup function to prevent memory leaking.

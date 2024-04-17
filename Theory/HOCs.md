@@ -6,7 +6,7 @@
 
 <br />
 
-###### Here's a simple example of a HOC that adds a simple login feature to a component:
+#### `Here's a simple example of a HOC that adds a simple login feature to a        component:`
 
 ```jsx
 import React, { useState } from "react";

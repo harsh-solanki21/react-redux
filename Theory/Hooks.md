@@ -235,7 +235,7 @@ _The useMemo and useCallback Hooks are similar. The main difference is that useM
 
 - When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.
 
-###### Example
+#### `Example`
 
 ```jsx
 import { useState, useEffect } from "react";

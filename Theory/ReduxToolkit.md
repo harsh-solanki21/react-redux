@@ -12,7 +12,7 @@
 - An action must have a "type" property describing the action being performed. This "type" property is typically defined as a string constant to ensure consistency and avoid typos.
 - In addition to the "type" property, an action can have a "payload" property. The "payload" property represents the data that provides additional information about the action being performed. For example, if an action type is ADD_TASK, the payload might be an object containing a new task item's "id", "text", and "completed status".
 
-###### Here's an example of an action:
+#### `Here's an example of an action:`
 
 ```jsx
 {
@@ -33,7 +33,7 @@
 
 - Reducer is a function that takes in the current state of an application and an action as arguments, and returns a new state based on the action.
 
-###### Here's an example of a simple reducer:
+#### `Here's an example of a simple reducer:`
 
 ```jsx
 const initialState = {
