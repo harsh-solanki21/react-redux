@@ -5,9 +5,9 @@ import {
   increment,
   incrementByAmount,
   decrementByAmount,
-} from "./counterSlice";
+} from "../../features/counter/counterSlice";
 
-export function Counter() {
+const Counter = () => {
   const count = useSelector((state: RootState) => state.counter.value);
   const dispatch = useDispatch();
 
@@ -48,4 +48,6 @@ export function Counter() {
       </button>
     </>
   );
-}
+};
+
+export default Counter;

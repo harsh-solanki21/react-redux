@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useCreateProductMutation } from "./apiSlice";
+import { useCreateProductMutation } from "../../features/rtkQuery/productSlice";
 import { IProduct } from "./ProductList";
 
 const ProductAdd = () => {

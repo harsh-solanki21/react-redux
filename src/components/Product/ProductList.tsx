@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { useGetAllProductsQuery } from "./apiSlice";
+import { useGetAllProductsQuery } from "../../features/rtkQuery/productSlice";
 
 export interface IProduct {
   id: number;
@@ -23,7 +23,6 @@ const ProductList: FC = () => {
   }
 
   if (isError) {
-    console.log({ error });
     return <div>{(error as any).status}</div>;
   }
 
