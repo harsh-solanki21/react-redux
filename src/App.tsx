@@ -1,15 +1,8 @@
 import "./App.css";
-import ProductAdd from "./features/rtkQuery/ProductAdd";
-import ProductList from "./features/rtkQuery/ProductList";
+import Users from "./components/User/Users";
 
 function App() {
-  return (
-    <>
-      <ProductAdd />
-      <hr />
-      <ProductList />
-    </>
-  );
+  return <Users />;
 }
 
 export default App;
